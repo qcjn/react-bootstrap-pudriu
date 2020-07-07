@@ -1,0 +1,8 @@
+body {
+  font-family: 'JetBrains Mono', monospace;
+  
+  @font-face {
+    font-family: "JetBrains Mono";
+    src: url("./fonts/JetBrainsMono-Regular.woff2");
+  }
+}
