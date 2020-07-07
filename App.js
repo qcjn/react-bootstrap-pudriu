@@ -31,7 +31,7 @@ export default () => (
               </Link>
               <div className="dropdown-divider"></div>
               <Link to="/hello" className="dropdown-item">
-                Something else here
+                Hello Bootstrap!
               </Link>
             </div>
           </li>

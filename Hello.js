@@ -3,6 +3,6 @@ import Layout from "./Layout";
 
 export default ({ name }) => (
   <Layout>
-    <h1>Hello {name}!</h1>
+    <h1 style={{textAlign:"center"}}>Hello {name}!</h1>
   </Layout>
 )
