@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Hello from "./Hello"
+import Action from "./Action"
+import Another from "./Another"
 import conf from "./_config"
 
 export default () => (
@@ -23,10 +25,10 @@ export default () => (
               Dropdown
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link to="/about" className="dropdown-item">
+              <Link to="/action" className="dropdown-item">
                 Action
               </Link>
-              <Link to="/" className="dropdown-item">
+              <Link to="/another" className="dropdown-item">
                 Another action
               </Link>
               <div className="dropdown-divider"></div>
@@ -49,6 +51,12 @@ export default () => (
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/action">
+          <Action />
+        </Route>
+        <Route path="/another">
+          <Another />
         </Route>
         <Route path="/hello">
           <Hello name="Bootstrap"/>
