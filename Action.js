@@ -11,3 +11,4 @@ export default () => (
 
 const arr = [1, 2 , 3]
 const listItems = arr.map(num => <li>{num}</li>)
+ 
