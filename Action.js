@@ -9,6 +9,10 @@ export default () => (
 )
 
 
-const arr = [1, 2 , 3]
-const listItems = arr.map(num => <li>{num}</li>)
+const arr = [{name:"a"}, {name:"b"} , {name:"c"}]
+const listItems = arr.map(item => (
+  <div>
+  name: {item.name}
+  </div>
+))
  
