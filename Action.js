@@ -27,9 +27,9 @@ const arr = [
   {first:"b", last:"bb", handle:"@bbb"}, 
   {first:"c", last:"cc", handle:"@ccc"}
 ]
-const tabItems = arr.map(item => (
-  <tr key={arr.indexOf(item) + 1}>
-    <th scope="row">{arr.indexOf(item) + 1}</th>
+const tabItems = arr.map((item, index) => (
+  <tr key={index + 1}>
+    <th scope="row">{index + 1}</th>
     <td>{item.first}</td>
     <td>{item.last}</td>
     <td>{item.handle}</td>
