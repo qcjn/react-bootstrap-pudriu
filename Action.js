@@ -28,7 +28,7 @@ const arr = [
   {first:"c", last:"cc", handle:"ccc"}
 ]
 const listItems = arr.map(item => (
-  <tr>
+  <tr key={arr.indexOf(item) + 1}>
     <th scope="row">{arr.indexOf(item) + 1}</th>
     <td>{item.first}</td>
     <td>{item.last}</td>
