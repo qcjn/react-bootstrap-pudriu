@@ -23,9 +23,9 @@ export default () => (
 
 
 const arr = [
-  {first:"a", last:"aa", handle:"aaa"},
-  {first:"b", last:"bb", handle:"bbb"}, 
-  {first:"c", last:"cc", handle:"ccc"}
+  {first:"a", last:"aa", handle:"@aaa"},
+  {first:"b", last:"bb", handle:"@bbb"}, 
+  {first:"c", last:"cc", handle:"@ccc"}
 ]
 const listItems = arr.map(item => (
   <tr key={arr.indexOf(item) + 1}>
