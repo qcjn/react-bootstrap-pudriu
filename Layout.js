@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 
 export default ({ children }) => (
-  <div className="row">
-    <div className="col">
+  <div className="container">
       <br />
       {children}
-    </div>
   </div>
 );

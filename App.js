@@ -44,6 +44,7 @@ export default () => (
           </li>
         </ul>
       </nav>
+    </div>
 
       <Switch>
         <Route exact path="/">
@@ -62,7 +63,6 @@ export default () => (
           <Hello name="Bootstrap"/>
         </Route>
       </Switch>
-
-    </div>
+    
   </Router>
 );
