@@ -15,7 +15,7 @@ export default () => (
         </tr>
       </thead>
       <tbody>
-        {listItems}
+        {tabItems}
       </tbody>
     </table>
   </Layout>
@@ -27,7 +27,7 @@ const arr = [
   {first:"b", last:"bb", handle:"@bbb"}, 
   {first:"c", last:"cc", handle:"@ccc"}
 ]
-const listItems = arr.map(item => (
+const tabItems = arr.map(item => (
   <tr key={arr.indexOf(item) + 1}>
     <th scope="row">{arr.indexOf(item) + 1}</th>
     <td>{item.first}</td>
